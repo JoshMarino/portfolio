@@ -2,7 +2,7 @@
 layout: about
 path: /about
 url: index.html
-image: http://i1290.photobucket.com/albums/b525/Josh_Marino/headshot_zpss1hoaulv.png
+image: http://i1290.photobucket.com/albums/b525/Josh_Marino/headshot_zpswc25gfsk.png
 ---
 
 ## Overview

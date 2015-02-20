@@ -2,7 +2,7 @@
 layout: about
 path: /about
 url: index.html
-image: http://i1290.photobucket.com/albums/b525/Josh_Marino/headshot_zpshl3l2mhw.jpg
+image: http://imageserver.moviepilot.com/eset-robot-1600x2560-a-glimpse-into-the-future-this-robot-can-sing.jpeg?width=2560&height=1600
 ---
 
 ## Overview

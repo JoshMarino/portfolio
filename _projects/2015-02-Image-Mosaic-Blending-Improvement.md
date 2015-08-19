@@ -2,7 +2,7 @@
 layout: project
 title: Image Mosaic - Blending Improvement
 date: March 2015
-image:https://raw.githubusercontent.com/JoshMarino/image-stitching/master/correspondences.jpg
+image: https://raw.githubusercontent.com/JoshMarino/image-stitching/master/correspondences.jpg
 ---
 
 ## Overview

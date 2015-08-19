@@ -62,11 +62,19 @@ Possible areas of improvement for blending between the overlapping field of view
 
 
 ### References
+
 [1] L. S. Shapiro and J. M. Brady, “Feature-based correspondence: An eigenvector approach,” Image Vision Comput.10(5), 1992, 283–288.
+
 [2] Herbert Bay, Tinne Tuytelaars, and Luc Van Gool, "Speeded Up Robust Features", ETH Zurich, Katholieke Universiteit Leuven
+
 [3] Martin A. Fischler and Robert C. Bolles (June 1981). "Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography". Comm. of the ACM 24 (6): 381–395. doi:10.1145/358669.358692
+
 [4] Snavely, N. (2006, January 1). Lecture 13: Homographies and RANSAC. Retrieved March 15, 2015.
+
 [5] Matthew Brown and David G. Lowe, "Automatic panoramic image stitching using invariant features," International Journal of Computer Vision, 74, 1 (2007), pp. 59-73.
+
 [6] Mordvintsev, A., & K., A. (2013, January 1). Image Pyramids. Retrieved March 15, 2015.
+
 [7] Singh, C. (n.d.). Panoramic Image Mosaic. Retrieved March 15, 2015, from http://pages.cs.wisc.edu/~csverma/CS766_09/ImageMosaic/imagemosaic.html
+
 [8] Burt, P. J. and Adelson, E. H., “A multiresolution spline with applications to image mosaics,” ACM Transactions on Graphics, 42(4), October 1983, 217-236.

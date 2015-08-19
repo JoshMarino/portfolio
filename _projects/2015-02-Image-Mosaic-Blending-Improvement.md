@@ -47,7 +47,6 @@ Another method for blending is a variation of the average weighted sum blend. Ra
 
 ```
 β(i)=  ( erf⁡[4*(i/T)-2]+ 1)/2
-
 α(i)=1-β
 ```
 

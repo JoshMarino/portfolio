@@ -25,7 +25,13 @@ In order to blend the two images for a more seamless transition between images, 
 
 #### Average Weighted Sum Blend
 
-This was performed using the following equation: Image_blend= α*Image_left+β*Image_right, where α and β range from [0,1], and they were both selected as 0.5 for an averaging effect. The result of a few tests using the average weighted sum blend is shown below. Apparent from the blended results is that an average weighted sum blend is not enough to create a seamless transition from one image to the next. A few reasons for this are because any minor differences in matching correspondences were enhanced and became more apparent, blending along the edges of the images created lines in the blended image, and clarity was lost in the blended image compared to the original images.
+This was performed using the following equation: 
+
+```
+Image_blend= α*Image_left+β*Image_right
+```
+
+where α and β range from [0,1], and they were both selected as 0.5 for an averaging effect. The result of a few tests using the average weighted sum blend is shown below. Apparent from the blended results is that an average weighted sum blend is not enough to create a seamless transition from one image to the next. A few reasons for this are because any minor differences in matching correspondences were enhanced and became more apparent, blending along the edges of the images created lines in the blended image, and clarity was lost in the blended image compared to the original images.
 
 ![average_weighted_sume_blend](https://raw.githubusercontent.com/JoshMarino/image-stitching/master/average_weighted_sum.png)
 
@@ -37,10 +43,11 @@ Pyramidal blending for the overlapping field of view in the panorama did not wor
 
 #### Distance Function Weighted Sum Blending
 
-Another method for blending is a variation of the average weighted sum blend. Rather than using constant values for alpha and beta, an improved blending function could be used. The weighted average method [8] was used in which each image was multiplied by a weighting function which decreases monotonically across its border. The resulting images are then summed to form the mosaic. The region of interest is the overlapping field of view, T. Approximation of the weighted average function in this region T was done with the error function. However, the error function ranges from [-1,1] in the y-direction, and of concern is a weight from [0,1] as shown in Figure 9. Simple scaling of the error function produced the appropriate weighting function. Represented in Figure 10 are the unaltered error function and the scaled error function. The scaled error function is as follows:
+Another method for blending is a variation of the average weighted sum blend. Rather than using constant values for alpha and beta, an improved blending function could be used. The weighted average method [8] was used in which each image was multiplied by a weighting function which decreases monotonically across its border. The resulting images are then summed to form the mosaic. The region of interest is the overlapping field of view, T. Approximation of the weighted average function in this region T was done with the error function. However, the error function ranges from [-1,1] in the y-direction, and of concern is a weight from [0,1]. Simple scaling of the error function produced the appropriate weighting function. Represented in Figure 10 are the unaltered error function and the scaled error function. The scaled error function is as follows:
 
 ```
 β(i)=  ( erf⁡[4*(i/T)-2]+ 1)/2
+
 α(i)=1-β
 ```
 

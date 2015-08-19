@@ -44,10 +44,10 @@ Pyramidal blending for the overlapping field of view in the panorama did not wor
 #### Distance Function Weighted Sum Blending
 
 Another method for blending is a variation of the average weighted sum blend. Rather than using constant values for alpha and beta, an improved blending function could be used. The weighted average method [8] was used in which each image was multiplied by a weighting function which decreases monotonically across its border. The resulting images are then summed to form the mosaic. The region of interest is the overlapping field of view, T. Approximation of the weighted average function in this region T was done with the error function. However, the error function ranges from [-1,1] in the y-direction, and of concern is a weight from [0,1]. Simple scaling of the error function produced the appropriate weighting function. Represented in Figure 10 are the unaltered error function and the scaled error function. The scaled error function is as follows:
-
+ 
 ```
-β(i)=  ( erf⁡[4*(i/T)-2]+ 1)/2
-α(i)=1-β
+β(i) =  1/2*(erf⁡[4*(i/T)-2]+ 1)
+α(i) = 1 - β(i)
 ```
 
 where erf [] is the error function, T is the overlapping field of view in the x-direction (width), and i is iterated from 0 to T. Increments of i should be chosen based on the resolution of blending required; i was chosen to be one pixel for the panoramas created.

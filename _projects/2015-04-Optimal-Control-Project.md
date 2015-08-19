@@ -2,7 +2,7 @@
 layout: project
 title: Optimal Control - Pendulum Projectile
 date: June 2015
-image: https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/period_2_bouncing.png
+image: https://raw.githubusercontent.com/JoshMarino/optimal-control/master/problem05.gif
 ---
 
 ## Intention of Project

@@ -2,7 +2,8 @@
 layout: project
 title: Virginia Tech Ackermann Steered RC Vehicle
 date: January 2014 - May 2014
-image: http://i1290.photobucket.com/albums/b525/Josh_Marino/Ackermann_RC_car_zpsig2xgfpw.png
+image: https://raw.githubusercontent.com/JoshMarino/VT_Robotic_Bird/master/IMG_0124_cropped.JPG
+<!--image: http://i1290.photobucket.com/albums/b525/Josh_Marino/Ackermann_RC_car_zpsig2xgfpw.png-->
 ---
 
 # Overview

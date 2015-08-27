@@ -37,7 +37,7 @@ Horizontal motion was briefly tested with the bouncing droplets for a frequency 
 
 A few other preliminary results were observed as well. First, no instant coalescences occurred for 20/1000 droplets out of 122 tests for a droplet height of 2-3 times the diameter of the droplet. This phenomenon might arise from the lower viscosity of the droplets bouncing on a very viscous fluid, allowing the droplet to deform more easily, keeping the air gap from thinning too much. Second, water droplets of 1 mPa-s were able to bounce on 1000 mPa-s bath, tested at 26 Hz for 11 and 14 m/s2, with its bouncing trajectory shown below. Third, an interesting idea for horizontal motion was such that surface waves created by pushing the liquid in the bath in close proximity to the droplet caused the droplet to walk. This occurred due to the droplet bouncing on an inclined plane cause by the surface wave and rebounding with a horizontal and vertical velocity. Positioning of droplets using surface waves was tested by creating surface waves from moving a wire around in the liquid bath. Once the surface wave was close to the already bouncing droplet, the droplet walked following the direction and speed of the surface wave.
 
-![water_bouncing](https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/water_bouncing.png)
+<img src="https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/water_bouncing.png" width="1024">
 
 
 ## Github Link + Paper

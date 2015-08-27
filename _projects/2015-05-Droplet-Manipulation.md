@@ -29,7 +29,7 @@ Silicone oil combinations for both the droplets and bath were then tested for st
 
 Another phenomenon observed was hysteretic bouncing for low and high bounce modes for driving amplitudes of 10 – 14 m/s^2. For increasing amplitudes in this range starting at the lower end, the droplet was in the low bounce mode, a short bounce followed by a longer bounce per period of shaking; however, starting at the high end and decreasing in amplitude was in the high bounce mode, a single bounce per period of shaking. Beyond this hysteretic bouncing regime, only the high bounce mode was witnessed. Another transition occurred at driving amplitude of 17 m/s^2 for 20/1000 and 100/1000 droplets in which period double bouncing was witnessed. In this bouncing mode, a high bounce followed by a low bounce cycle occurred for every two periods of shaking, shown below.
 
-![period_double_bouncing](https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/Vertical%20Bouncing%20Stability%20Plots/space_time_droplet_period_doubled.png)
+![period_double_bouncing](https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/space_time_droplet_period_doubled.png)
 
 Also tested were 1000/1000 droplets, but droplets were not able to bounce for more than a minute. Impact velocity was very important for the 1000/1000 droplets in how far above the bath the syringe was placed. If the droplet height was too high, more than twice the diameter of the droplets, the droplets instantly coalesce. Similarly, the droplets instantly coalesce for lower frequencies due to the larger vertical displacement of the bath to achieve a desired acceleration.
 
@@ -37,7 +37,7 @@ Horizontal motion was briefly tested with the bouncing droplets for a frequency 
 
 A few other preliminary results were observed as well. First, no instant coalescences occurred for 20/1000 droplets out of 122 tests for a droplet height of 2-3 times the diameter of the droplet. This phenomenon might arise from the lower viscosity of the droplets bouncing on a very viscous fluid, allowing the droplet to deform more easily, keeping the air gap from thinning too much. Second, water droplets of 1 mPa-s were able to bounce on 1000 mPa-s bath, tested at 26 Hz for 11 and 14 m/s2, with its bouncing trajectory shown below. Third, an interesting idea for horizontal motion was such that surface waves created by pushing the liquid in the bath in close proximity to the droplet caused the droplet to walk. This occurred due to the droplet bouncing on an inclined plane cause by the surface wave and rebounding with a horizontal and vertical velocity. Positioning of droplets using surface waves was tested by creating surface waves from moving a wire around in the liquid bath. Once the surface wave was close to the already bouncing droplet, the droplet walked following the direction and speed of the surface wave.
 
-![water_bouncing](https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/Vertical%20Bouncing%20Stability%20Plots/water_bouncing.png)
+![water_bouncing](https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/water_bouncing.png)
 
 
 ## Github Link + Paper

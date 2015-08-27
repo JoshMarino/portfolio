@@ -5,13 +5,13 @@ date: June 2015
 image: https://raw.githubusercontent.com/JoshMarino/optimal-control/master/problem05.gif
 ---
 
-## Intention of Project
+### Intention of Project
 Intention of this project was to determine the required torques, T1 and T2, for a fully actuated double pendulum in order to release an object at the end of the second link for maximum distance thrown.
 
 ![double_pendulum_configuration](https://raw.githubusercontent.com/JoshMarino/optimal-control/master/double_pendulum_configuration.png)
 
 
-### Project Summary
+### Project Details
 
 Initial attempts to add maximum distance thrown to the cost function J(-) included directly adding distance as a function of state to the cost function. This would not have worked without recalculating the Riccati equations for steepest descent direction. Attempting to do such for a function of distance thrown involved an analytical solution from [1], of which contained multiple terms of sine, cosine, and square roots. Rather than going down that road, I attempted to alter my cost function towards one which we already had Riccati solutions.
 

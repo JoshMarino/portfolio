@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Mechatronics
+title: Mechatronics - DC Motor Control
 date: February 2015
-image: 
+image: https://raw.githubusercontent.com/JoshMarino/mechatronics_project/master/DC_motor_control.png
 ---
 
 ## Overview
@@ -42,5 +42,5 @@ The results of following three different reference trajectories are shown below:
 ![180_degree_trajectory](https://raw.githubusercontent.com/JoshMarino/mechatronics_project/master/180_degree_trajectory.png)
 
 
-## Github Link
+## Github Link with Code
 [Mechatronics Project](https://github.com/JoshMarino/mechatronics_project)

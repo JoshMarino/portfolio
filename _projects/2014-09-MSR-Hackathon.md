@@ -6,7 +6,7 @@ image: http://a.tgcdn.net/images/products/zoom/8a0f_usb_rocket_launcher.jpg
 ---
 
 ## Overview
-During the MSR hack-a-thon before starting Fall Quarter 2014, our class was introduced to ROS, Linux, and Python. As an introdution to ROS, we were divided into 4 teams and worked on a project to aim a USB Rocket Launcher at a red ball.
+During the MSR hack-a-thon before starting Fall Quarter 2014, our class was introduced to ROS, Linux, and Python. As an introduction to ROS, we were divided into 4 teams and worked on a project to aim a USB Rocket Launcher at a red ball.
 
 ### Introduction to ROS Subscriber/Publisher
 Before getting started on the rocket launcher, we did a simple subscriber/publisher tutorial. This was then modified with a launch file to open and view a USB web camera stream with the package usb_cam.

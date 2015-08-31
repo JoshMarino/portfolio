@@ -15,25 +15,25 @@ Completed in the Mechatronics course was becoming familiar with the PIC32, writi
 Control of the DC motor occurred through MATLAB, in which serial communication sent commands to the PIC32 to directly control the DC motor. Hardware used was quadrature decoder and counter chip, current sensor, H-bridge, as well as resistors and capacitors. We built up a library of functions before having a bar attached to the end of the motor follow a reference trajectory. These functions were: 
 
 1. Read current sensor (ticks)
-2. Read encoder (ticks)
-3. Reset encoder
-4. Set current gains
-5. Set position gains
-6. Tune current loop
-7. Go to angle
-8. Load cubic trajectory
-9. Quit
-10. Read current sensor (mA)
-11. Read encoder (deg)
-12. Set PWM
-13. Get current gains
-14. Get position gains
-15. Set recording samples
-16. Get state
-17. Load step trajectory
-18. Execute trajectory
+2. Read current sensor (mA)
+3. Read encoder (ticks)
+4. Read encoder (degree)
+5. Reset encoder
+6. Set PWM
+7. Set current gains
+8. Get current gains
+9. Set position gains
+10. Get position gains
+11. Tune current loop
+12. Set recording samples
+13. Go to angle
+14. Get state
+15. Load cubic trajectory
+16. Load step trajectory
+17. Execute trajectory
+18. Quit
 
-Once functions 1-16 were working, we wrote code for 2 control loops: current control loop (5 kHz) and position control loop (200 Hz). The PI current controller makes the current sensor reading match a reference signal by adjusting the PWM signal and motor direction. The PID position control loop determines the error between the reference position and enconder angle, setting a desired current to follow for the current control loop. Tuning of both control loops was required.
+Once functions 1-14 were working, we wrote code for two control loops: current control loop (5 kHz) and position control loop (200 Hz). The PI current controller makes the current sensor reading match a reference signal by adjusting the PWM signal and motor direction. The PID position control loop determines the error between the reference position and encoder angle, setting a desired current to follow for the current control loop. Tuning of both control loops was required.
 
 The results of following three different reference trajectories are shown below: 1) square trajectory, 2) 90 degree sine curve, 3) 180 degree sine curve
 

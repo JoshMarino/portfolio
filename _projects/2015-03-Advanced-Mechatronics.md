@@ -21,10 +21,10 @@ Josh Marino
 6. [Homework #6 - Harmony Project "blinky_leds"](#hw6)
 7. [Homework #7 - Harmony Project "hid_mouse"](#hw7)
 8. [Homework #8 - Harmony Project "hid_basic" and Extension](#hw8)
-9. [Homework #9 - Lasercut Box & 3D Printed Wheel](#hw9)
+9. [Homework #9 - Laser Cut Box & 3D Printed Wheel](#hw9)
 10. [Homework #10 - Android App Hello World!](#hw10)
 11. [Homework #11 - Filtering Accelerometer Data](#hw11)
-12. [Homework #14 - Lasercut Car](#hw14)
+12. [Homework #14 - Laser Cut Car](#hw14)
 13. [Tech Cup](#tech_cup)
 
 
@@ -34,7 +34,7 @@ The first homework assignment included wiring the PIC32 with 2 LEDS, 2 push butt
 1. Toggle LED1 every 1/2 second
 2. When USER is pushed, toggle LED1 as fast as possible
 3. Set LED2 brightness proportional to the potentiometer voltage
-4. Set LED2 frequency to 1kHz using Timer 2 and verify with the nScope or Tek scope
+4. Set LED2 frequency to 1 kHz using Timer2 and verify with the nScope or Tek scope
 
 
 #### Homework #2 - EAGLE Schematic for Protoboard <a name="hw2"></a>
@@ -48,7 +48,7 @@ Last, the chips were added to the schematic, and components were connected toget
 
 
 #### Homework #3 - EAGLE Board Layout for Protoboard <a name="hw3"></a>
-The third homework assignment created a board layout from the EAGLE schematic for our protoboard. After the components were placed, connections were added for wires. Once everything was wired and connected, gerber files were generated and double-checked using mayhewlabs 3d gerber viewer.
+The third homework assignment created a board layout from the EAGLE schematic for our protoboard. After the components were placed, connections were added for wires. Once everything was wired and connected, Gerber files were generated and double-checked using Mayhewlabs 3d Gerber Viewer.
 
 
 #### Homework #4 - I2C OLED Display <a name="hw4"></a>
@@ -77,8 +77,8 @@ Get the hid_basic Harmony example to compile with the PIC32MX250F128B. Setup the
 Change the code to complete the following task: When the computer program runs, the user enters a string and a row number, the computer sends the data to the PIC, and the PIC displays the string on the OLED display on the correct row. After displaying the string, the PIC samples the accelerometer x, y, and z data at 100Hz and sends it to the computer. The computer saves the data into a text file with data in 3 space-separated columns.
 
 
-#### Homework #9 - Lasercut Box & 3D Printed Wheel <a name="hw9"></a>
-Design a box to lasercut out of 1/8" thick plywood. Use a tabbed design, with t-slots for 6-32 screws and nuts. The box should have 4 parts (one of them flexible) with an open top. Also, design a wheel to 3D print on one of the printers in the mechatronics lab. The wheel should fit a 2" silicone O-ring tire, McMaster part number 9396K83. The wheel should press fit onto a D-shape motor output shaft, 3mm in diameter, 2.5mm from edge to flat.
+#### Homework #9 - Laser Cut Box & 3D Printed Wheel <a name="hw9"></a>
+Design a box to laser cut out of 1/8" thick plywood. Use a tabbed design, with t-slots for 6-32 screws and nuts. The box should have 4 parts (one of them flexible) with an open top. Also, design a wheel to 3D print on one of the printers in the mechatronics lab. The wheel should fit a 2" silicone O-ring tire, McMaster part number 9396K83. The wheel should press fit onto a D-shape motor output shaft, 3 mm in diameter, 2.5 mm from edge to flat.
 
 <img src="https://raw.githubusercontent.com/JoshMarino/advanced_mechatronics/master/hw9/assembly.png" width="1024">
 <img src="https://raw.githubusercontent.com/JoshMarino/advanced_mechatronics/master/hw9/wheel.png" width="1024">
@@ -89,14 +89,14 @@ Test the Hello World code built into Android Studio. Follow the instructions at 
 
 
 #### Homework #11 - Filtering Accelerometer Data <a name="hw11"></a>
-Edit HW #8 to send only the Z acceleration data at 500Hz for 20 seconds. Take data from the accelerometer while shaking the board up and down at 1Hz. Plot the data in MATLAB, and perform an FFT. Verify that there is a spike at 1Hz.
+Edit HW #8 to send only the Z acceleration data at 500 Hz for 20 seconds. Take data from the accelerometer while shaking the board up and down at 1 Hz. Plot the data in MATLAB, and perform an FFT. Verify that there is a spike at 1 Hz.
 
 Create a MAF to smooth the data using a 5 element FIFO. Send the filtered acceleration back to the computer along with the unfiltered. Plot both and perform an FFT on both, and note how well the MAF worked.
 
-Pick a low-pass frequency that would remove the noise but keep the 1Hz shaking. Use MATLAB to design FIR coefficients to reduce noise above that frequency. Use enough coefficients to avoid frequency ripple, but no more than 12. Implement the FIR, and send the filtered data back to the computer with the unfiltered and MAF filtered data. Plot vs time and as an FFT in MATLAB.
+Pick a low-pass frequency that would remove the noise but keep the 1 Hz shaking. Use MATLAB to design FIR coefficients to reduce noise above that frequency. Use enough coefficients to avoid frequency ripple, but no more than 12. Implement the FIR, and send the filtered data back to the computer with the unfiltered and MAF filtered data. Plot vs. time and as an FFT in MATLAB.
 
 
-#### Homework #14 - Lasercut Car <a name="hw14"></a>
+#### Homework #14 - Laser Cut Car <a name="hw14"></a>
 Robot CAD files for completing a lap while following a line.
 
 ![test_display](https://raw.githubusercontent.com/JoshMarino/advanced_mechatronics/master/hw14/car_assembly.png)

@@ -6,13 +6,12 @@ image: http://imageserver.moviepilot.com/eset-robot-1600x2560-a-glimpse-into-the
 ---
 
 ## Overview
-My name is Josh Marino and I am a master's student at Northwestern University in the MSR program (Master's in Robotics). My interests in robotics are humanoid research, mechatronics, and bio-inspired designs.
+My name is Josh Marino and I recently completed my MSR (Master's in Robotics) in 2015 from Northwestern University. My interests in robotics are manipulation, humanoid research, mechatronics, and bio-inspired designs.
 
 ## Contact Information
 
 * Phone: (804) 517-7487
 * Email: joshuamarino2015@u.northwestern.edu
 * LinkedIn: [Josh Marino](https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile)
-* Northwestern MSR: [Master of Science in Robotics](http://robotics.northwestern.edu/)
-* Address: 2145 Sheridan Rd., Evanston, IL, 60201
+* Northwestern MSR: [Master of Science in Robotics](http://www.mccormick.northwestern.edu/robotics/meet-students/student-profiles/marino-josh.html)
 

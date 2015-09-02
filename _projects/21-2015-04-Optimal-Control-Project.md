@@ -2,7 +2,7 @@
 layout: project
 title: Optimal Control - Pendulum Projectile
 date: June 2015
-image: http://i1290.photobucket.com/albums/b525/Josh_Marino/Screenshot%20from%202015-09-02%20155054_zpszodopxhx.png
+image: http://i1290.photobucket.com/albums/b525/Josh_Marino/Screenshot%20from%202015-09-02%20155444_zpsh11ih7bh.png
 ---
 
 ### Intention of Project

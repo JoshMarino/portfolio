@@ -2,7 +2,7 @@
 layout: project
 title: Optimal Control - Pendulum Projectile
 date: June 2015
-image: https://raw.githubusercontent.com/JoshMarino/optimal-control/master/problem05.gif
+image: http://www.math.uni-bremen.de/zetem/cms/media.php/254/thumbnails/intro_roboter.png.4466.png
 ---
 
 ### Intention of Project

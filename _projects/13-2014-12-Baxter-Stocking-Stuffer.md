@@ -8,6 +8,12 @@ image: http://i1290.photobucket.com/albums/b525/Josh_Marino/Screenshot%20from%20
 ## Overview
 My Fall 2014 mini-project was working as part of a team to have Baxter stuff stockings with presents for Christmas. He scans his workspace to find a stocking, determines the present associated with each unique stocking, scans a table for the correct present, picks up the present, and last, drops the present inside the stocking. Baxter then continues stuffing stockings until the last one has finished.
 
+
+
+<iframe src="https://player.vimeo.com/video/145652442" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/145652442">Baxter Stocking Stuffer</a> from <a href="https://vimeo.com/user45806288">Josh Marino</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+
 ### Baxter Scanning his Workspace to Find an Empty Stocking
 To start, Baxter moves his hand to a predetermined position in which he can see all stockings. The stocking ID's are all read and he selects the first identifier that has not already been completed. 
 

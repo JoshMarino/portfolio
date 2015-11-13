@@ -12,6 +12,11 @@ The intention of this project was to gain some experience in manipulation tasks 
 2. Using MoveIt! to generate paths for both end-effectors from initial pose to handoff pose, without being in collision
 3. Performing the first and second steps numerous times in order to find the path that takes the minimal time
 
+
+<iframe src="https://player.vimeo.com/video/145652126" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/145652126">Baxter_dual_arm_manipulation</a> from <a href="https://vimeo.com/user45806288">Josh Marino</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+
 ### Minimization Problem
 In order to find a handoff pose, a minimization problem was set up which minimized the norm of the distance and rotation between the initial poses of each end-effector and the handoff pose. Python's scipy.optimize.minimize() function was used to solve this problem, using Sequential Least Squares Programming, SLSQP method. Also set as parameters for the minimization function were the Jacobian (gradient) of the objective function, bounds, constraints, and tolerance for termination. Experimentation was used with the constraints and tolerance for termination to find a solution in the least amount of iterations and time, while still satisfying the constraints. After numerous experiments, I was able to solve the minimization problem succesfully in roughly 30 iterations and 1-2 seconds.
 

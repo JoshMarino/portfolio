@@ -11,7 +11,8 @@ The intention of this project was to study the simultaneous levitation and manip
 
 
 
-<iframe src="https://player.vimeo.com/video/145650948" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/145650948">period_double_26hz_20A_20_1000</a> from <a href="https://vimeo.com/user45806288">Josh Marino</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/145650948" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/145650948">period_double_26hz_20A</a> from <a href="https://vimeo.com/user45806288">Josh Marino</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 
 
 
@@ -43,7 +44,5 @@ A few other preliminary results were observed as well. First, no instant coalesc
 <img src="https://raw.githubusercontent.com/JoshMarino/droplet_manipulation/master/water_bouncing.png" width="1024">
 
 
-## Github Link + Paper
+## Github Link
 [Github Link](https://github.com/JoshMarino/droplet_manipulation)
-
-Paper Link - 

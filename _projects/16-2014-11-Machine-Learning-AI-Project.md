@@ -2,8 +2,9 @@
 layout: project
 title: ML & AI - Mini-Projects
 date: November 2014
-image: http://www.enterrasolutions.com/media/Machine-Learning-01.png
+image: http://i1290.photobucket.com/albums/b525/Josh_Marino/ML_AI_zpsanrtn49r.png
 ---
+
 
 ### Assignment 1: Implement UKF filtering algorithm, analyze performance.
 

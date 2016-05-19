@@ -13,5 +13,5 @@ My name is Josh Marino and I recently completed my MSR (Master's in Robotics) in
 * Phone: (804) 517-7487
 * Email: joshuamarino2015@u.northwestern.edu
 * LinkedIn: [Josh Marino](https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile)
-* Northwestern MSR: [Master of Science in Robotics](http://www.mccormick.northwestern.edu/robotics/meet-students/student-profiles/marino-josh.html)
+* Northwestern MSR: [Master of Science in Robotics](http://www.mccormick.northwestern.edu/robotics/index.html)
 
